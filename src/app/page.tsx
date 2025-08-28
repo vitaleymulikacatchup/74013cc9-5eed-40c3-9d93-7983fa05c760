@@ -2,7 +2,6 @@
 import BillboardHero from '@/components/sections/layouts/hero/BillboardHero';
 import ButtonIconArrow from '@/components/buttons/ButtonIconArrow';
 import TextboxStandard from '@/components/textbox/TextboxStandard';
-import CarouselBase from '@/components/carousel/CarouselBase';
 import SocialsAbout from '@/components/sections/layouts/about/SocialsAbout';
 import TextGridTokenomics from '@/components/sections/layouts/tokenomics/TextGridTokenomics';
 import CentralFAQ from '@/components/sections/layouts/faq/CentralFAQ';
@@ -18,7 +17,7 @@ export default function Home() {
 
         <section id="features" className="py-24 bg-white">
           <TextboxStandard title={<h2 className="text-2xl font-bold">Features</h2>} description={<p>Discover our amazing features that make us stand out!</p>} />
-          <CarouselBase>{/* Feature cards go here */}</CarouselBase>
+          {/* Feature cards go here */}
         </section>
 
         <section id="use-cases" className="soft-noise py-24">
